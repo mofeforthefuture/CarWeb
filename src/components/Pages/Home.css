@@ -1,0 +1,59 @@
+.four-o-four{
+    color: grey;
+    font-weight: 900;
+    font-size: 1250%;
+
+}
+
+.four-btn{
+    margin:  auto;
+    float: right;
+    margin-right: 45%;
+}
+.card-display{
+    display: inline;
+}
+.carousel-image {
+    width: 700px;
+    height: 500px;
+}
+.carousel{
+        width: 700px;
+        height: 500px;
+}
+.carousel-background{
+    margin-left: 30px;
+}
+.car-info-container{
+    width: 50%;
+    bottom: 500px;
+    position: relative;
+    margin-left: 720px;
+}
+.info-table{
+    position: relative;
+    bottom: 470px;
+    margin-left: 720px;
+    margin-bottom: 200px;
+}
+.info-cards{
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.piechart{
+    width: 200px;
+}
+.progressbar{
+    width: 200px;
+}
+.progressbars-group{
+    float: left;
+    margin-left: 20px;
+}
+.progress-div{
+    margin-left: 30px;
+}
+.form{
+    padding: 40px;
+}
