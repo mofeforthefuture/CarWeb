@@ -10,7 +10,7 @@ function Home() {
             <div className='card-display'>
                 <AppCard
                     image='https://img2.carmax.com/img/vehicles/20252304/1/385.jpg'
-                    name='Toyota Corolla 2010'
+                    name='Toyota Corolla'
                     price=' 2 ,000,000'
                     year='2010'
                     condition='New'
@@ -18,7 +18,7 @@ function Home() {
                 />
                 <AppCard
                     image='https://img2.carmax.com/img/vehicles/20252304/1/385.jpg'
-                    name='Toyota Corolla 2010'
+                    name='Toyota Corolla'
                     price=' 2 ,000,000'
                     year='2010'
                     condition='New'
@@ -26,7 +26,7 @@ function Home() {
                 />
                 <AppCard
                     image='https://img2.carmax.com/img/vehicles/20252304/1/385.jpg'
-                    name='Toyota Corolla 2010'
+                    name='Toyota Corolla'
                     price=' 2 ,000,000'
                     year='2010'
                     condition='New'
@@ -34,7 +34,7 @@ function Home() {
                 />
                 <AppCard
                     image='https://img2.carmax.com/img/vehicles/20252304/1/385.jpg'
-                    name='Toyota Corolla 2010'
+                    name='Toyota Corolla'
                     price=' 2 ,000,000'
                     year='2010'
                     condition='New'
@@ -42,7 +42,7 @@ function Home() {
                 />
                 <AppCard
                     image='https://img2.carmax.com/img/vehicles/20252304/1/385.jpg'
-                    name='Toyota Corolla 2010'
+                    name='Toyota Corolla'
                     price=' 2 ,000,000'
                     year='2010'
                     condition='New'

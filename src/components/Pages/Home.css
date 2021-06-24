@@ -13,11 +13,7 @@
 .card-display{
     display: inline;
 }
-.carousel-image {
-    width: 700px;
-    height: 500px;
-}
-.carousel{
+.carousel,.carousel-image{
         width: 700px;
         height: 500px;
 }
@@ -56,4 +52,25 @@
 }
 .form{
     padding: 40px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 720px) {
+    .carousel, .carousel-image{
+        width: 350px;
+        height: 250px;
+}
+.carousel-background{
+    margin-left: 14px;
+}
+.car-info-container{
+    width: 50%;
+    bottom: -10px;
+    position: relative;
+    margin-left: 10px;
+}
+.info-table{
+    position: relative;
+    bottom: -40px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
 }

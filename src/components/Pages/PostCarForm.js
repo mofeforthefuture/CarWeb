@@ -70,7 +70,7 @@ function PostCarForm(props) {
                         <Form.File
                             className="position-relative"
                             required
-                            name="file"
+                            name="picture"
                             label="Pictures"
                         />
                     </Form.Group>

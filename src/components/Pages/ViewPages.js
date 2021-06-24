@@ -13,21 +13,21 @@ function ViewPages(props) {
             <AppNavbar />
             <div className='carousel-background'>
                 <Carousel>
-                    <Carousel.Item interval={1000} className='carousel'>
+                    <Carousel.Item interval={3000} className='carousel'>
                         <img
                             className="d-block w-20 carousel-image"
                             src='https://img2.carmax.com/img/vehicles/20252304/1/385.jpg'
                             alt="First slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={1000} className='carousel'>
+                    <Carousel.Item interval={3000} className='carousel'>
                         <img
                             className="d-block w-20 carousel-image"
                             src='https://buy.cars45.com/image/cache/catalog/Toyota-Corolla-2010_529d8103-e5ce-4340-a875-3ce067298587/dashboardPhoto-600x400.jpg?v=0'
                             alt="Second slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={1000} className='carousel'>
+                    <Carousel.Item interval={3000} className='carousel'>
                         <img
                             className="d-block w-20 carousel-image"
                             src='https://img2.carmax.com/img/vehicles/20252304/1/385.jpg'

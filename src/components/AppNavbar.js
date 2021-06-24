@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import carlogo from '../assets/logo.png'
 import './Nav.css'
 
@@ -18,14 +17,10 @@ function AppNavbar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="/post-car">Post car</Nav.Link>
+                        <div className='line'></div>
                         <Nav.Link href="/admin-dashboard">My Dashboard</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
+                        <div className='line'></div>
+
                     </Nav>
                     <Nav>
                         <Link to='/login'>
