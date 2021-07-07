@@ -57,26 +57,27 @@ h6, h4{
 .card-det{
     margin-left: 10px;
 }
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 720px) {
     /* Styles */
     .card {
         background-color: #fff;
         height: 250px;
-        width : 150px;
+        width : 45%;
         border-radius: 5px;
         overflow: hidden;
         text-align: left;
-        margin-left: 20px;
+        margin-left: 5px;
         cursor: pointer;
         float: left;
         margin-bottom: 10px;
-        box-shadow: 2px 2px #968888;
+        margin-left: 9px;
         
     }
     .card-photo{
         height: 150px;
         width: auto;
     }
-  
+
 }
 

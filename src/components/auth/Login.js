@@ -20,12 +20,12 @@ function Login() {
                 <h1>Login</h1>
                 <Form>
                     <Form.Field>
-                        <Form.Input label='Username' placeholder='Username' />
+                        <Form.Input className='input' label='Username' placeholder='Username' />
                     </Form.Field>
                     <Form.Field widths={1}>
-                        <Form.Input label='Password' placeholder='Password' type='password' />
+                        <Form.Input className='input' label='Password' placeholder='Password' type='password' />
                     </Form.Field>
-                    <Button className='submitBtn' onClick={Submit}>Submit</Button>
+                    <Button className='submitBtn ' onClick={Submit}>Submit</Button>
                     <Link to='/sign-up'>Don't have an account?Sign up instead</Link>
                 </Form>
             </div>
